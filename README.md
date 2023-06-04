@@ -1,7 +1,7 @@
 # login
 Ettore auto-avaliacao
 
-from os import system
+``` from os import system
 
 def cadastrar(qtnd) -> None:
     with open('usuarios.txt', 'a') as file:
@@ -52,4 +52,4 @@ if _name_ == '_main_':
         elif opcao == '3':
             listar()
         elif opcao == '4':
-            break
+            break ```
